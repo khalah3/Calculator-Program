@@ -24,6 +24,8 @@ for key in dictionary:
 Program_run=True
   
 while Program_run==True:
+    import art
+    print(art.logo)
 
     num1=float(input('enter the first number:  '))
     num2=float(input('enter the second number:  '))
